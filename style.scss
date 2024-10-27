@@ -1,0 +1,25 @@
+// $theme_fg_color: #your_foreground_color;
+// $theme_bg_color: #your_background_color;
+
+window.Bar {
+  background: transparent;
+  // color: $theme_fg_color;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+
+  >centerbox {
+    // background: $theme_bg_color;
+    background: transparent;
+    border-radius: 10px;
+    margin: 5px;
+    margin-bottom: 0px;
+  }
+
+  button {
+    border-radius: 8px;
+    margin: 2px;
+    border-color:transparent;
+  }
+}
